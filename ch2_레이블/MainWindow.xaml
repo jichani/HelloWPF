@@ -1,0 +1,38 @@
+﻿<Window x:Class="ch2_레이블.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ch2_레이블"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label HorizontalContentAlignment="Center">안녕하세요.</Label>
+            <Label HorizontalContentAlignment="Left">안녕하세요.</Label>
+            <Label HorizontalContentAlignment="Right">안녕하세요.</Label>
+            <Label HorizontalContentAlignment="Stretch">안녕하세요.</Label>
+            <Label HorizontalAlignment="Center" Content="안녕하세요."></Label>
+            <Label HorizontalAlignment="Left" Content="안녕하세요."></Label>
+            <Label HorizontalAlignment="Right" Content="안녕하세요."></Label>
+            <Label HorizontalAlignment="Stretch" Content="안녕하세요."></Label>
+            <Label>
+                <Image Width="30" Source="https://cdn2.iconfinder.com/data/icons/custom-ios-14-1/60/Chat-256.png"></Image>
+            </Label>
+            <Label>
+                <StackPanel Orientation="Horizontal">
+                    <Image Width="30" Source="https://cdn2.iconfinder.com/data/icons/custom-ios-14-1/60/Chat-256.png"></Image>
+                    <AccessText Text="원하는 문자열" />
+                </StackPanel>
+            </Label>
+            <Label Content="Hello"
+                   FontSize="30"
+                   FontWeight="Bold"
+                   Background="Salmon"
+                   Foreground="White"
+             ></Label>
+            <Label Content="_Lbl" Target="{Binding ElementName=tb}"></Label>
+            <TextBox x:Name="tb"/>
+        </StackPanel>
+    </Grid>
+</Window>
