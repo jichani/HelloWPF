@@ -11,8 +11,16 @@
             <StackPanel Orientation="Horizontal">
                 <Calendar DisplayMode="Decade"></Calendar>
                 <Calendar DisplayMode="Year"></Calendar>
-                <Calendar DisplayMode="Month"></Calendar>
+                <Calendar DisplayMode="Month"
+                          x:Name="cal"
+                          SelectedDatesChanged="cal_SelectedDatesChanged">
+                    <Calendar.BlackoutDates>
+                        <CalendarDateRange Start="10.01.2023" End="10.07.2023" />
+                    </Calendar.BlackoutDates>
+                </Calendar>
             </StackPanel>
+            <TextBlock Name="tb">텍스트블럭</TextBlock>
+            <TextBlock Text="{Binding ElementName=cal, Path=SelectedDate, StringFormat=yyyy-MM-dd tt hh:mm:ss, ConverterCulture='ko-KR'}"></TextBlock>
         </StackPanel>
     </Grid>
 </Window>

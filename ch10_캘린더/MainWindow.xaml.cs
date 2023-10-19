@@ -24,5 +24,10 @@ namespace ch10_캘린더
         {
             InitializeComponent();
         }
+
+        private void cal_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+        {
+            tb.Text = cal.SelectedDate.ToString();
+        }
     }
 }
