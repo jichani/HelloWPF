@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch13_익스펜더", "ch13_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch14_스택패널", "ch14_스택패널\ch14_스택패널.csproj", "{0DCD4DBA-FC52-4AA6-95B9-B4995669EFF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch15_랩패널", "15강_랩패널\ch15_랩패널.csproj", "{D7315565-1871-4C00-99F7-4D70407C9503}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{0DCD4DBA-FC52-4AA6-95B9-B4995669EFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DCD4DBA-FC52-4AA6-95B9-B4995669EFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DCD4DBA-FC52-4AA6-95B9-B4995669EFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7315565-1871-4C00-99F7-4D70407C9503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7315565-1871-4C00-99F7-4D70407C9503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7315565-1871-4C00-99F7-4D70407C9503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7315565-1871-4C00-99F7-4D70407C9503}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
