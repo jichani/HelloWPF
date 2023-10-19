@@ -17,23 +17,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch06_패스워드박스", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch07_이미지", "ch7_이미지\ch07_이미지.csproj", "{16D56192-9190-4F70-97AB-AE707EC3560F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch08_체크박스", "ch8_체크박스\ch08_체크박스.csproj", "{2820F33A-772E-416A-A05C-348A36A807BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch08_체크박스", "ch8_체크박스\ch08_체크박스.csproj", "{2820F33A-772E-416A-A05C-348A36A807BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch09_라디오버튼", "ch9_라디오버튼\ch09_라디오버튼.csproj", "{E6B2E62D-931A-46DC-BCFB-66DED4F71FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch09_라디오버튼", "ch9_라디오버튼\ch09_라디오버튼.csproj", "{E6B2E62D-931A-46DC-BCFB-66DED4F71FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch10_캘린더", "ch10_캘린더\ch10_캘린더.csproj", "{A5AD404D-A04A-4C69-B20B-D62B8EA8AB85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch10_캘린더", "ch10_캘린더\ch10_캘린더.csproj", "{A5AD404D-A04A-4C69-B20B-D62B8EA8AB85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11_데이트피커", "ch11_데이트피커\ch11_데이트피커.csproj", "{E57AF9E2-98E2-421E-9AD5-EDF942F2AAA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch11_데이트피커", "ch11_데이트피커\ch11_데이트피커.csproj", "{E57AF9E2-98E2-421E-9AD5-EDF942F2AAA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch12_슬라이더", "ch12_슬라이더\ch12_슬라이더.csproj", "{2DADBA46-ABB6-46CA-9C7B-C9ABA11110F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch12_슬라이더", "ch12_슬라이더\ch12_슬라이더.csproj", "{2DADBA46-ABB6-46CA-9C7B-C9ABA11110F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch13_익스펜더", "ch13_익스펜더\ch13_익스펜더.csproj", "{E0C13BFC-78A4-4BD4-B586-A5BE14BA37F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch13_익스펜더", "ch13_익스펜더\ch13_익스펜더.csproj", "{E0C13BFC-78A4-4BD4-B586-A5BE14BA37F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch14_스택패널", "ch14_스택패널\ch14_스택패널.csproj", "{0DCD4DBA-FC52-4AA6-95B9-B4995669EFF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch14_스택패널", "ch14_스택패널\ch14_스택패널.csproj", "{0DCD4DBA-FC52-4AA6-95B9-B4995669EFF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch15_랩패널", "15강_랩패널\ch15_랩패널.csproj", "{D7315565-1871-4C00-99F7-4D70407C9503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch15_랩패널", "15강_랩패널\ch15_랩패널.csproj", "{D7315565-1871-4C00-99F7-4D70407C9503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch16_독패널", "ch16_독패널\ch16_독패널.csproj", "{6796F368-4292-4A39-B5BD-4B9B95FD98EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch16_독패널", "ch16_독패널\ch16_독패널.csproj", "{6796F368-4292-4A39-B5BD-4B9B95FD98EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch17_그리드", "ch17_그리드\ch17_그리드.csproj", "{26A03348-82D9-47FA-980C-8B4047831B11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{6796F368-4292-4A39-B5BD-4B9B95FD98EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6796F368-4292-4A39-B5BD-4B9B95FD98EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6796F368-4292-4A39-B5BD-4B9B95FD98EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A03348-82D9-47FA-980C-8B4047831B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A03348-82D9-47FA-980C-8B4047831B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A03348-82D9-47FA-980C-8B4047831B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A03348-82D9-47FA-980C-8B4047831B11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
