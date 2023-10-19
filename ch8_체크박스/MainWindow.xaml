@@ -1,0 +1,28 @@
+﻿<Window x:Class="ch8_체크박스.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ch8_체크박스"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+            <Label>과일을 고르세요</Label>
+            <CheckBox>딸기</CheckBox>
+            <CheckBox>사과</CheckBox>
+            <CheckBox IsChecked="True">수박</CheckBox>
+            <CheckBox Content="배" />
+            <CheckBox
+                x:Name="chkApple"
+                Checked="chkApple_Checked"
+                Unchecked="chkApple_Unchecked"
+                VerticalContentAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Image Width="50" Source="https://cdn0.iconfinder.com/data/icons/fruity-3/512/Mango-256.png" />
+                    <TextBlock VerticalAlignment="Center" Text="레몬" x:Name="tb" />
+                </StackPanel>
+            </CheckBox>
+        </StackPanel>
+    </Grid>
+</Window>

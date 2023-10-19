@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch4_버튼", "Ch4_버튼\Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch5_텍스트박스", "Ch5_텍스트박스\Ch5_텍스트박스.csproj", "{362FC818-2789-48E6-B6BB-CA6D83FFD5DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch6_패스워드박스", "ch6_패스워드박스\ch6_패스워드박스.csproj", "{B7F92489-AED8-4A1B-94A1-FBB62EB61016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch6_패스워드박스", "ch6_패스워드박스\ch6_패스워드박스.csproj", "{B7F92489-AED8-4A1B-94A1-FBB62EB61016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch7_이미지", "ch7_이미지\ch7_이미지.csproj", "{16D56192-9190-4F70-97AB-AE707EC3560F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch7_이미지", "ch7_이미지\ch7_이미지.csproj", "{16D56192-9190-4F70-97AB-AE707EC3560F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8_체크박스", "ch8_체크박스\ch8_체크박스.csproj", "{2820F33A-772E-416A-A05C-348A36A807BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{16D56192-9190-4F70-97AB-AE707EC3560F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16D56192-9190-4F70-97AB-AE707EC3560F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16D56192-9190-4F70-97AB-AE707EC3560F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2820F33A-772E-416A-A05C-348A36A807BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2820F33A-772E-416A-A05C-348A36A807BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2820F33A-772E-416A-A05C-348A36A807BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2820F33A-772E-416A-A05C-348A36A807BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
