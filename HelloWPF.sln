@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch17_그리드", "ch17_그�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch18_유니폼그리드", "ch18_유니폼그리드\ch18_유니폼그리드.csproj", "{7B577894-BE42-48E4-9A75-A83E1064BB6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch19_캔버스", "ch19_캔버스\ch19_캔버스.csproj", "{B3C11D75-0617-4A1F-81B8-CE5991F79E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{7B577894-BE42-48E4-9A75-A83E1064BB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B577894-BE42-48E4-9A75-A83E1064BB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B577894-BE42-48E4-9A75-A83E1064BB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C11D75-0617-4A1F-81B8-CE5991F79E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C11D75-0617-4A1F-81B8-CE5991F79E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C11D75-0617-4A1F-81B8-CE5991F79E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C11D75-0617-4A1F-81B8-CE5991F79E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
