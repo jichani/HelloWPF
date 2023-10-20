@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch26_데이터바인딩2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch27_데이터바인딩3_리스트박스_리스트뷰", "ch27_데이터바인딩3\ch27_데이터바인딩3_리스트박스_리스트뷰.csproj", "{927EADAD-E9BB-4FD0-884E-C429899A4B6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch28_영어단어맞추기", "ch28_영어단어맞추기\ch28_영어단어맞추기.csproj", "{B73F8979-14E3-40CE-8295-1B95C59288DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{927EADAD-E9BB-4FD0-884E-C429899A4B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{927EADAD-E9BB-4FD0-884E-C429899A4B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{927EADAD-E9BB-4FD0-884E-C429899A4B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73F8979-14E3-40CE-8295-1B95C59288DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73F8979-14E3-40CE-8295-1B95C59288DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73F8979-14E3-40CE-8295-1B95C59288DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73F8979-14E3-40CE-8295-1B95C59288DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
