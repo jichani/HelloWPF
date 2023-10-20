@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch21_스테이터스바", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch22_툴바", "ch22_툴바\ch22_툴바.csproj", "{94EDD6CD-E2BE-4DAE-95BC-9A905653B23D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch23_메뉴", "ch23_메뉴\ch23_메뉴.csproj", "{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{94EDD6CD-E2BE-4DAE-95BC-9A905653B23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94EDD6CD-E2BE-4DAE-95BC-9A905653B23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94EDD6CD-E2BE-4DAE-95BC-9A905653B23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
