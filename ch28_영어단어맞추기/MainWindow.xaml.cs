@@ -48,7 +48,7 @@ namespace ch28_영어단어맞추기
             set
             {
                 selectedEng = value;
-                OnPropertyChanged("selectedEng");
+                OnPropertyChanged("SelectedEng");
             }
         }
         public string SelectedKor
@@ -57,7 +57,7 @@ namespace ch28_영어단어맞추기
             set
             {
                 selectedKor = value;
-                OnPropertyChanged("selectedKor");
+                OnPropertyChanged("SelectedKor");
             }
         }
         public string MessageText
@@ -66,7 +66,7 @@ namespace ch28_영어단어맞추기
             set
             {
                 messageText = value;
-                OnPropertyChanged("messageText");
+                OnPropertyChanged("MessageText");
             }
         }
         List<char> SelectedWord = new List<char>();
@@ -103,14 +103,27 @@ namespace ch28_영어단어맞추기
         private void RandomWord()
         {
             string[] selChar = words[new Random().Next(0, words.Count)].Split(",");
-            selectedEng = selChar[0];
-            selectedKor = selChar[1];
-            compareWord = selectedEng;
+            SelectedEng = selChar[0];
+            SelectedKor = selChar[1];
+            compareWord = SelectedEng;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            wrong = 0;
+            SelectedWord = new List<char>();
+            RandomWord();
+            ChangeWord(SelectedEng, SelectedWord);
+            MessageText = "알파벳을 선택하여 주세요";
+            Status();
+            foreach (var a in ic.Items)
+            {
+                var btn = (UIElement)ic.ItemContainerGenerator.ContainerFromItem(a);
+                if (btn != null)
+                {
+                    btn.IsEnabled = true;
+                }
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -152,6 +165,14 @@ namespace ch28_영어단어맞추기
             if(compareWord == SelectedEng.Replace(" ", ""))
             {
                 MessageText = "You Win!";
+                foreach (var a in ic.Items)
+                {
+                    var btn = (UIElement)ic.ItemContainerGenerator.ContainerFromItem(a);
+                    if (btn != null)
+                    {
+                        btn.IsEnabled = false;
+                    }
+                }
             }
         }
         private void CheckLost()
