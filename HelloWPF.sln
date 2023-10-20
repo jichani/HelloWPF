@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch25_데이터바인딩", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch26_데이터바인딩2", "ch26_데이터바인딩2\ch26_데이터바인딩2.csproj", "{95FD78FD-44F9-4786-9139-0C411CFCD2DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch27_데이터바인딩3_리스트박스_리스트뷰", "ch27_데이터바인딩3\ch27_데이터바인딩3_리스트박스_리스트뷰.csproj", "{927EADAD-E9BB-4FD0-884E-C429899A4B6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{95FD78FD-44F9-4786-9139-0C411CFCD2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FD78FD-44F9-4786-9139-0C411CFCD2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FD78FD-44F9-4786-9139-0C411CFCD2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927EADAD-E9BB-4FD0-884E-C429899A4B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927EADAD-E9BB-4FD0-884E-C429899A4B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927EADAD-E9BB-4FD0-884E-C429899A4B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927EADAD-E9BB-4FD0-884E-C429899A4B6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
