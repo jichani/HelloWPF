@@ -12,7 +12,7 @@
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
-            <Label Content="틀린횟수: 0 of 0"
+            <Label Content="{Binding WrongStatus}"
                    FontWeight="Bold"
                    HorizontalAlignment="Center"
                    />

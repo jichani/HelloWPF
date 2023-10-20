@@ -90,6 +90,14 @@ namespace ch28_영어단어맞추기
             btns.AddRange("abcdefghijklmnopqrstuvwxyz");
             ic.ItemsSource = btns;
             RandomWord();
+            ChangeWord(SelectedEng, SelectedWord);
+            WrongStatus = $"틀린횟수: {wrong} of {maxWrong}";
+        }
+
+        private void ChangeWord(string selectedEng,List<char> selWord)
+        {
+            char[] result = selectedEng.Select(x=>(selWord.IndexOf(x)>=0 ? x: '*')).ToArray();
+            SelectedEng = string.Join(' ',result);
         }
 
         private void RandomWord()
@@ -107,7 +115,34 @@ namespace ch28_영어단어맞추기
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            var btn = sender as Button;
+            if(btn != null) 
+            {
+                var result = btn.Content.ToString();
+                CheckWord(result[0]);
+            }
+        }
 
+        private void CheckWord(char v)
+        {
+            if(SelectedWord.IndexOf(v) == -1)
+            {
+                SelectedWord.Add(v);
+            }
+            if(compareWord.IndexOf(v) >= 0)
+            {
+                ChangeWord(compareWord, SelectedWord);
+            }
+            else if (compareWord.IndexOf(v) == -1)
+            {
+                wrong++;
+                Status();
+            }
+        }
+
+        private void Status()
+        {
+            WrongStatus = $"틀린횟수: {wrong} of {maxWrong}";
         }
     }
 }
