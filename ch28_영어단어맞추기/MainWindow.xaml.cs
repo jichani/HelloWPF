@@ -132,17 +132,42 @@ namespace ch28_영어단어맞추기
             if(compareWord.IndexOf(v) >= 0)
             {
                 ChangeWord(compareWord, SelectedWord);
+                CheckWin();
             }
             else if (compareWord.IndexOf(v) == -1)
             {
                 wrong++;
                 Status();
+                CheckLost();
             }
         }
 
         private void Status()
         {
             WrongStatus = $"틀린횟수: {wrong} of {maxWrong}";
+        }
+
+        private void CheckWin()
+        {
+            if(compareWord == SelectedEng.Replace(" ", ""))
+            {
+                MessageText = "You Win!";
+            }
+        }
+        private void CheckLost()
+        {
+            if(wrong == maxWrong)
+            {
+                MessageText = "You Lost!";
+                foreach(var a in ic.Items)
+                {
+                    var btn = (UIElement)ic.ItemContainerGenerator.ContainerFromItem(a);
+                    if(btn != null)
+                    {
+                        btn.IsEnabled = false;
+                    }
+                }
+            }
         }
     }
 }

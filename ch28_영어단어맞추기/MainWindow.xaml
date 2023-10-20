@@ -24,7 +24,7 @@
                    FontSize="40"
                    HorizontalAlignment="Center"
                    />
-            <Label Content="메세지"
+            <Label Content="{Binding MessageText}"
                    FontWeight="Bold"
                    FontSize="20"
                    Foreground="White"
