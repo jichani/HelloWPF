@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch22_툴바", "ch22_툴바\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch23_메뉴", "ch23_메뉴\ch23_메뉴.csproj", "{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch24_컨텍스트메뉴", "ch24_컨텍스트메뉴\ch24_컨텍스트메뉴.csproj", "{C2C7F7F4-7C08-4296-AACC-0CBD71DE85DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71159B6-AB8A-46DF-B0C1-A73DD3394D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C7F7F4-7C08-4296-AACC-0CBD71DE85DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C7F7F4-7C08-4296-AACC-0CBD71DE85DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C7F7F4-7C08-4296-AACC-0CBD71DE85DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C7F7F4-7C08-4296-AACC-0CBD71DE85DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
