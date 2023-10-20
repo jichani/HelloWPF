@@ -35,11 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch15_랩패널", "15강_랩
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch16_독패널", "ch16_독패널\ch16_독패널.csproj", "{6796F368-4292-4A39-B5BD-4B9B95FD98EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch17_그리드", "ch17_그리드\ch17_그리드.csproj", "{26A03348-82D9-47FA-980C-8B4047831B11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch17_그리드", "ch17_그리드\ch17_그리드.csproj", "{26A03348-82D9-47FA-980C-8B4047831B11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch18_유니폼그리드", "ch18_유니폼그리드\ch18_유니폼그리드.csproj", "{7B577894-BE42-48E4-9A75-A83E1064BB6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch18_유니폼그리드", "ch18_유니폼그리드\ch18_유니폼그리드.csproj", "{7B577894-BE42-48E4-9A75-A83E1064BB6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch19_캔버스", "ch19_캔버스\ch19_캔버스.csproj", "{B3C11D75-0617-4A1F-81B8-CE5991F79E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ch19_캔버스", "ch19_캔버스\ch19_캔버스.csproj", "{B3C11D75-0617-4A1F-81B8-CE5991F79E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch20_프로그래스바", "ch20_프로그래스바\ch20_프로그래스바.csproj", "{583523A2-E34E-49A4-BA43-BBAEED74996F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{B3C11D75-0617-4A1F-81B8-CE5991F79E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C11D75-0617-4A1F-81B8-CE5991F79E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C11D75-0617-4A1F-81B8-CE5991F79E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583523A2-E34E-49A4-BA43-BBAEED74996F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583523A2-E34E-49A4-BA43-BBAEED74996F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583523A2-E34E-49A4-BA43-BBAEED74996F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583523A2-E34E-49A4-BA43-BBAEED74996F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
